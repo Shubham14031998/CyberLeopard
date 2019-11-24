@@ -21,7 +21,7 @@
 
 public var pickerCallBack:PickerImage = nil
 public typealias PickerImage = ((UIImage?) -> (Void))?
-public let ImagePickerHalper = ImagePicker.sharedInstanse
+public var ImagePickerHalper = ImagePicker.sharedInstanse
 
 import UIKit
 
@@ -129,13 +129,13 @@ public class ImagePicker: NSObject {
 
 // MARK: - Picker Delegate
 extension ImagePicker : UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-    private func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String  : Any]) {
+    public func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String  : Any]) {
         guard let image = info[UIImagePickerControllerOriginalImage] as? UIImage else { return }
         pickerCallBack?(image)
         dismissViewController()
     }
     
-    private func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+    public func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         dismissViewController()
     }
 }
