@@ -40,11 +40,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7A726C3A3BAE416E19CA7FF3 /* Pods_CyberLeopard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyberLeopard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8887E0E49B5F3A582128870A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8887E0E49B5F3A582128870A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9056EE7DB98BC53CA9652B79 /* Pods-CyberLeopard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyberLeopard_Tests.release.xcconfig"; path = "Target Support Files/Pods-CyberLeopard_Tests/Pods-CyberLeopard_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		949E9EEBD501A632B91F3CA5 /* Pods-CyberLeopard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyberLeopard_Example.debug.xcconfig"; path = "Target Support Files/Pods-CyberLeopard_Example/Pods-CyberLeopard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C00E627164A20FF2705AEAA1 /* CyberLeopard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CyberLeopard.podspec; path = ../CyberLeopard.podspec; sourceTree = "<group>"; };
-		D5F34B8CCFB102FF0AED31A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C00E627164A20FF2705AEAA1 /* CyberLeopard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CyberLeopard.podspec; path = ../CyberLeopard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D5F34B8CCFB102FF0AED31A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DDA5993DA94C40265BEA6858 /* Pods_CyberLeopard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyberLeopard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFABBAF08E97244BE00A8944 /* Pods-CyberLeopard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyberLeopard_Example.release.xcconfig"; path = "Target Support Files/Pods-CyberLeopard_Example/Pods-CyberLeopard_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				3D0CEE463EDAA6C661B9A350 /* Pods-CyberLeopard_Tests.debug.xcconfig */,
 				9056EE7DB98BC53CA9652B79 /* Pods-CyberLeopard_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
