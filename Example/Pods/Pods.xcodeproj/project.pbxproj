@@ -25,7 +25,6 @@
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9738DB12EAE102FE6AC8D95E44CB9EF2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F956B6A65AD3CA78DEF1B59C4ED366 /* ReplaceMe.swift */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
@@ -122,7 +121,6 @@
 		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		EEED266DA0075A73D1575BBD5AD33162 /* Pods-CyberLeopard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CyberLeopard_Example.modulemap"; sourceTree = "<group>"; };
 		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		F6F956B6A65AD3CA78DEF1B59C4ED366 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CyberLeopard/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		F891548546F1AE92BAD0119366E27A96 /* CyberLeopard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CyberLeopard.xcconfig; sourceTree = "<group>"; };
 		FBA83CFA0AD70F8B1492CDCA637EA9FB /* Pods-CyberLeopard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CyberLeopard_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -198,7 +196,6 @@
 			isa = PBXGroup;
 			children = (
 				6E30230D238A7DB300B8E5AC /* DownloadImage.swift */,
-				F6F956B6A65AD3CA78DEF1B59C4ED366 /* ReplaceMe.swift */,
 				56DC7519312D5FEC2F85CC0D99B89E56 /* Pod */,
 				DFD64ADDB5C886D347CD6388C6D287BF /* Support Files */,
 			);
@@ -544,7 +541,6 @@
 			files = (
 				04E08A32E34F9785333BC81F4E05ACD0 /* CyberLeopard-dummy.m in Sources */,
 				6E30230E238A7DB300B8E5AC /* DownloadImage.swift in Sources */,
-				9738DB12EAE102FE6AC8D95E44CB9EF2 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
