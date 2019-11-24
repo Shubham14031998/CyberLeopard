@@ -21,6 +21,7 @@
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
 		6E30230E238A7DB300B8E5AC /* DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E30230D238A7DB300B8E5AC /* DownloadImage.swift */; };
+		6ECBE8A1238AD26C00D0695B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECBE8A0238AD26C00D0695B /* ImagePicker.swift */; };
 		7FBDA2F7E7C29E9CE3D52F6C2063AD47 /* CyberLeopard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D55874B77D5AA815E6870388B0F2C17 /* CyberLeopard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
@@ -85,6 +86,7 @@
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6BDA3C88161925CF765D7584818A42C7 /* Pods-CyberLeopard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CyberLeopard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6E30230D238A7DB300B8E5AC /* DownloadImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DownloadImage.swift; path = CyberLeopard/Classes/DownloadImage.swift; sourceTree = "<group>"; };
+		6ECBE8A0238AD26C00D0695B /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagePicker.swift; path = CyberLeopard/Classes/ImagePicker.swift; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		7841D564E60C4B32E6870BC77DCF26CE /* CyberLeopard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CyberLeopard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,6 +197,7 @@
 		2F9EA9EE36D786E4792AFC4D0F1B9906 /* CyberLeopard */ = {
 			isa = PBXGroup;
 			children = (
+				6ECBE8A0238AD26C00D0695B /* ImagePicker.swift */,
 				6E30230D238A7DB300B8E5AC /* DownloadImage.swift */,
 				56DC7519312D5FEC2F85CC0D99B89E56 /* Pod */,
 				DFD64ADDB5C886D347CD6388C6D287BF /* Support Files */,
@@ -539,6 +542,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ECBE8A1238AD26C00D0695B /* ImagePicker.swift in Sources */,
 				04E08A32E34F9785333BC81F4E05ACD0 /* CyberLeopard-dummy.m in Sources */,
 				6E30230E238A7DB300B8E5AC /* DownloadImage.swift in Sources */,
 			);
