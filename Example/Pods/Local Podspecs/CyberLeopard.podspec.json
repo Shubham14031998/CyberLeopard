@@ -1,0 +1,22 @@
+{
+  "name": "CyberLeopard",
+  "version": "0.1.0",
+  "summary": "A short description of CyberLeopard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shubhamkaliyar255@gmail.com/CyberLeopard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shubhamkaliyar255@gmail.com": "shubhamkaliyar255@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/shubhamkaliyar255@gmail.com/CyberLeopard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CyberLeopard/Classes/**/*"
+}

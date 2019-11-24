@@ -1,0 +1,6 @@
+framework module CyberLeopard {
+  umbrella header "CyberLeopard-umbrella.h"
+
+  export *
+  module * { export * }
+}

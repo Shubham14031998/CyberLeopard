@@ -1,0 +1,27 @@
+PODS:
+  - CyberLeopard (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CyberLeopard (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CyberLeopard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CyberLeopard: 3bbe6a16556b17fc50d6404310bce726883efc84
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 90d198a78cc81f001df78de112643a1f0663d301
+
+COCOAPODS: 1.8.4
