@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CyberLeopard_Example' do
+  pod 'CyberLeopard', :path => '../'
+
+  target 'CyberLeopard_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
